@@ -13,27 +13,25 @@ int main(void)
 
 	int lw = 'a';
 
+	int up = 'A';
+
 	while (lw <= 'z')
 
 	{
 
-		if (lw == 'e' || lw == 'q')
+		putchar(lw);
 
-		{
+		lw += 1;
 
-			lw += 1;
+	}
 
-		}
+	while (up <= 'Z')
 
-		else
+	{
 
-		{
+		putchar(up);
 
-			putchar(lw);
-
-			lw += 1;
-
-		}
+		up += 1;
 
 	}
 

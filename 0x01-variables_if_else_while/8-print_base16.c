@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdlib.h
 #include <time.h>
 #include <stdio.h>
 /**
@@ -7,3 +7,36 @@
  * if the number is less than 0: is negative, followed by a new line
  * Return: 0
  */
+int main(void)
+
+{
+
+	int n = 48;
+
+	int l = 'a';
+
+	while (n <= 57)
+
+	{
+
+		putchar(n);
+
+		n += 1;
+
+	}
+
+	while (l <= 'f')
+
+	{
+
+		putchar(l);
+
+		l++;
+
+	}
+
+	putchar('\n');
+
+	return (0);
+
+}
