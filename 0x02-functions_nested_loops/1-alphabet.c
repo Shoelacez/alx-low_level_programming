@@ -7,10 +7,8 @@
 
 int main(void)
 {
-	char str[] = "_putchar";		
-	int ch;
-	for (ch = 0; ch < 8; ++ch)
-	_putchar(str[ch]);
+	char v;
+	for (v='a'; v <= 'z'; ++v)
+		_putchar(v);
 	_putchar('\n');
-	return (0);
 }
